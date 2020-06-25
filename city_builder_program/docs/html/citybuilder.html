@@ -1,0 +1,95 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module citybuilder</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>citybuilder</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/s5068691/citybuilder.py">/home/s5068691/citybuilder.py</a></font></td></tr></table>
+    <p><tt>This&nbsp;function&nbsp;generate&nbsp;two&nbsp;kinds&nbsp;of&nbsp;city,square&nbsp;and&nbsp;circle,with&nbsp;user&nbsp;input&nbsp;value&nbsp;of&nbsp;building&nbsp;details&nbsp;and&nbsp;city&nbsp;settings<br>
+The&nbsp;program&nbsp;contian&nbsp;three&nbsp;main&nbsp;functions:<br>
+1.generate&nbsp;of&nbsp;building&nbsp;in&nbsp;single&nbsp;block<br>
+2.move&nbsp;of&nbsp;blocks&nbsp;in&nbsp;square&nbsp;shape<br>
+3.move&nbsp;of&nbsp;blocks&nbsp;in&nbsp;circle&nbsp;shape</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-GUI"><strong>GUI</strong></a>()</dt><dd><tt>THis&nbsp;function&nbsp;design&nbsp;the&nbsp;interface&nbsp;of&nbsp;the&nbsp;program</tt></dd></dl>
+ <dl><dt><a name="-building_in_block"><strong>building_in_block</strong></a>(buwidth, budepth, bugap, bucount, buxnum, buznum)</dt><dd><tt>This&nbsp;function&nbsp;build&nbsp;tall&nbsp;buildings&nbsp;in&nbsp;one&nbsp;block&nbsp;by&nbsp;recieved&nbsp;value&nbsp;from&nbsp;UI&nbsp;and&nbsp;randomly&nbsp;select&nbsp;from&nbsp;three&nbsp;different&nbsp;roof<br>
+param&nbsp;name:<br>
+buwidth=&nbsp;building&nbsp;width(in&nbsp;x&nbsp;direction)<br>
+budepth=building&nbsp;depth(in&nbsp;z&nbsp;direction)<br>
+bugap=&nbsp;gap&nbsp;between&nbsp;each&nbsp;building<br>
+bucount=&nbsp;counting&nbsp;value&nbsp;for&nbsp;the&nbsp;for&nbsp;loop<br>
+buxnum=&nbsp;building&nbsp;number&nbsp;in&nbsp;x&nbsp;direction<br>
+buznum=&nbsp;building&nbsp;number&nbsp;in&nbsp;z&nbsp;direction<br>
+return&nbsp;value:&nbsp;no&nbsp;return&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-buildtheblock"><strong>buildtheblock</strong></a>(buwidth, budepth, bugap, bucount, buxnum, buznum)</dt><dd><tt>This&nbsp;function&nbsp;build&nbsp;the&nbsp;city&nbsp;inside&nbsp;the&nbsp;block&nbsp;with&nbsp;accepting&nbsp;values&nbsp;from&nbsp;UI<br>
+param&nbsp;name:<br>
+buwidth=&nbsp;building&nbsp;width(in&nbsp;x&nbsp;direction)<br>
+budepth=building&nbsp;depth(in&nbsp;z&nbsp;direction)<br>
+bugap=&nbsp;gap&nbsp;between&nbsp;each&nbsp;building<br>
+bucount=&nbsp;counting&nbsp;value&nbsp;for&nbsp;the&nbsp;for&nbsp;loop<br>
+buxnum=&nbsp;building&nbsp;number&nbsp;in&nbsp;x&nbsp;direction<br>
+buznum=&nbsp;building&nbsp;number&nbsp;in&nbsp;z&nbsp;direction<br>
+return&nbsp;value:&nbsp;no&nbsp;return&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-circlecal"><strong>circlecal</strong></a>(r, div, c, buwidth, budepth, bugap, bucount, buxnum, buznum)</dt><dd><tt>This&nbsp;function&nbsp;display&nbsp;the&nbsp;blocks&nbsp;into&nbsp;a&nbsp;circle&nbsp;city&nbsp;by&nbsp;accepting&nbsp;value&nbsp;from&nbsp;UI<br>
+param&nbsp;name:<br>
+r=&nbsp;initial&nbsp;radius&nbsp;of&nbsp;the&nbsp;city<br>
+div=&nbsp;subdivition&nbsp;of&nbsp;each&nbsp;90&nbsp;degree&nbsp;of&nbsp;the&nbsp;circle<br>
+c=&nbsp;counting&nbsp;value&nbsp;use&nbsp;for&nbsp;the&nbsp;for&nbsp;loop<br>
+buwidth=&nbsp;building&nbsp;width(in&nbsp;x&nbsp;direction)<br>
+budepth=building&nbsp;depth(in&nbsp;z&nbsp;direction)<br>
+bugap=&nbsp;gap&nbsp;between&nbsp;each&nbsp;building<br>
+bucount=&nbsp;counting&nbsp;value&nbsp;for&nbsp;the&nbsp;for&nbsp;loop<br>
+buxnum=&nbsp;building&nbsp;number&nbsp;in&nbsp;x&nbsp;direction<br>
+buznum=&nbsp;building&nbsp;number&nbsp;in&nbsp;z&nbsp;direction<br>
+return&nbsp;value:&nbsp;no&nbsp;return&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-delete"><strong>delete</strong></a>()</dt><dd><tt>This&nbsp;function&nbsp;select&nbsp;all&nbsp;the&nbsp;existing&nbsp;object&nbsp;and&nbsp;delete<br>
+param&nbsp;name:&nbsp;no&nbsp;parameters<br>
+return&nbsp;value:&nbsp;no&nbsp;return&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-flat_in_block"><strong>flat_in_block</strong></a>(buwidth, budepth, bugap, bucount, buxnum, buznum)</dt><dd><tt>This&nbsp;function&nbsp;build&nbsp;low&nbsp;buildings&nbsp;in&nbsp;one&nbsp;block&nbsp;by&nbsp;recieved&nbsp;value&nbsp;from&nbsp;UI&nbsp;and&nbsp;randomly&nbsp;select&nbsp;from&nbsp;three&nbsp;different&nbsp;roof<br>
+param&nbsp;name:<br>
+buwidth=&nbsp;building&nbsp;width(in&nbsp;x&nbsp;direction)<br>
+budepth=building&nbsp;depth(in&nbsp;z&nbsp;direction)<br>
+bugap=&nbsp;gap&nbsp;between&nbsp;each&nbsp;building<br>
+bucount=&nbsp;counting&nbsp;value&nbsp;for&nbsp;the&nbsp;for&nbsp;loop<br>
+buxnum=&nbsp;building&nbsp;number&nbsp;in&nbsp;x&nbsp;direction<br>
+buznum=&nbsp;building&nbsp;number&nbsp;in&nbsp;z&nbsp;direction<br>
+return&nbsp;value:&nbsp;no&nbsp;return&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-selectallbuildings"><strong>selectallbuildings</strong></a>(buxnum, buznum)</dt><dd><tt>This&nbsp;function&nbsp;select&nbsp;all&nbsp;buildings&nbsp;in&nbsp;one&nbsp;block&nbsp;and&nbsp;combine&nbsp;them&nbsp;<br>
+param&nbsp;name:<br>
+buxnum=&nbsp;building&nbsp;in&nbsp;x&nbsp;direction<br>
+buznum=&nbsp;building&nbsp;in&nbsp;z&nbsp;direction<br>
+return&nbsp;value:&nbsp;no&nbsp;return&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-start"><strong>start</strong></a>()</dt><dd><tt>This&nbsp;function&nbsp;recived&nbsp;value&nbsp;from&nbsp;GUI&nbsp;and&nbsp;make&nbsp;selction&nbsp;between&nbsp;square&nbsp;and&nbsp;circle&nbsp;city&nbsp;<br>
+param&nbsp;name:&nbsp;no&nbsp;parameter<br>
+return&nbsp;value:&nbsp;no&nbsp;return&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-street_streetlight"><strong>street_streetlight</strong></a>(blockwidth, buwidth, blockdepth, budepth, blockxnum, blockznum, street)</dt><dd><tt>This&nbsp;function&nbsp;build&nbsp;the&nbsp;street&nbsp;and&nbsp;street&nbsp;light&nbsp;and&nbsp;move&nbsp;them&nbsp;into&nbsp;the&nbsp;corresponding&nbsp;place<br>
+param&nbsp;name:<br>
+blockwidth=&nbsp;block&nbsp;width(in&nbsp;x&nbsp;direction)&nbsp;<br>
+buwidth=&nbsp;building&nbsp;width(in&nbsp;x&nbsp;direction)<br>
+blockdepth=block&nbsp;depth(in&nbsp;z&nbsp;direction)<br>
+budepth=building&nbsp;depth(in&nbsp;z&nbsp;direction)<br>
+blockxnum=&nbsp;block&nbsp;number&nbsp;in&nbsp;x&nbsp;direction<br>
+blockznum=&nbsp;block&nbsp;number&nbsp;in&nbsp;z&nbsp;direction<br>
+street=&nbsp;street&nbsp;width<br>
+return&nbsp;value:&nbsp;no&nbsp;return&nbsp;value</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>blockheight</strong> = 4<br>
+<strong>bucount</strong> = 1<br>
+<strong>streetheight</strong> = 1</td></tr></table>
+</body></html>
